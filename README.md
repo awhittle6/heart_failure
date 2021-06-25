@@ -17,6 +17,7 @@ Heart complications is the leading factor of death in the United Status. In this
 
 # Data Preprocessing 
 The data set obtained for this analysis was provided on kaggle and can be viewed [here](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data).
-Before establishing any correlations and while this data we will first look at the PDFs (Probability Density Function) of each feature.
-![](https://i.imgur.com/IT3shfM.png = 100x100)
+Before establishing any correlations and while this data we will first look at the PDFs (Probability Density Function) of each feature. <br>
+<img src="https://i.imgur.com/IT3shfM.png" width="500" height="500"> <br>
+Heatmap of features to class: <br>
 As we can see, most of the features have skewed PDFs and this we will pass normalization to pycaret to change the values of numeric columns in the dataset to a common scale, without distorting differences in the ranges of values.
