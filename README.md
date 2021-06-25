@@ -22,6 +22,8 @@ Before establishing any correlations and while this data we will first look at t
 Let's look at a heatmap of features to class using the seaborn library: <br><br>
 <img src ="https://user-images.githubusercontent.com/50965707/123425484-35d39e00-d590-11eb-9544-3202c2956f9e.png" width="750" height="500"><br><br>
 
-As we can see, most of the features have skewed PDFs and this we will pass normalization to pycaret to change the values of numeric columns in the dataset to a common scale, without distorting differences in the ranges of values. For this particular example we will scale our feautues using the MinMax scaler since multiple features have some intense outliers with a non-normal distribution.
+As we can see, most of the features have skewed PDFs and this we will pass normalization to pycaret to change the values of numeric columns in the dataset to a common scale, without distorting differences in the ranges of values. For this particular example we will scale our feautues using the MinMax scaler since multiple features have some intense outliers with a non-normal distribution.<br>
 <img src = "https://miro.medium.com/max/780/1*kxS78PFEiDXq0slix6a5xA.png">
+
+
 
