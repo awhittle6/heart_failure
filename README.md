@@ -18,8 +18,10 @@ Heart complications is the leading factor of death in the United Status. In this
 # Data Preprocessing 
 The data set obtained for this analysis was provided on kaggle and can be viewed [here](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data).
 Before establishing any correlations and while this data we will first look at the PDFs (Probability Density Function) of each feature. <br>
-<img src="https://i.imgur.com/IT3shfM.png" width="500" height="550"> <br>
-Heatmap of features to class: <br>
-<img src ="https://user-images.githubusercontent.com/50965707/123425484-35d39e00-d590-11eb-9544-3202c2956f9e.png" width="750" height="500"><br>
+<img src="https://i.imgur.com/IT3shfM.png" width="500" height="550"> <br><br>
+Let's look at a heatmap of features to class using the seaborn library: <br><br>
+<img src ="https://user-images.githubusercontent.com/50965707/123425484-35d39e00-d590-11eb-9544-3202c2956f9e.png" width="750" height="500"><br><br>
 
-As we can see, most of the features have skewed PDFs and this we will pass normalization to pycaret to change the values of numeric columns in the dataset to a common scale, without distorting differences in the ranges of values.
+As we can see, most of the features have skewed PDFs and this we will pass normalization to pycaret to change the values of numeric columns in the dataset to a common scale, without distorting differences in the ranges of values. For this particular example we will scale our feautues using the MinMax scaler since multiple features have some intense outliers with a non-normal distribution.
+<img src = "https://miro.medium.com/max/780/1*kxS78PFEiDXq0slix6a5xA.png">
+
