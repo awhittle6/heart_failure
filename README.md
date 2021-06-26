@@ -1,5 +1,5 @@
 # Motivation
-Heart complications is the leading factor of death in the United Status. In this project we are intrested in analyzing how the following factors: <br>
+Heart disease the leading factor of death in the United Status. In this project we are intrested in analyzing how the following factors: <br>
 1. age: Age <br />
 1. anaemia: Decrease of red blood cells or hemoglobin (boolean) <br />
 1. creatinine_phosphokinase: Level of the CPK enzyme in the blood (mcg/L) <br />
